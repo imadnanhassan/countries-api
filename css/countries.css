@@ -1,0 +1,11 @@
+.country{
+    background-color: cadetblue;
+    color: aliceblue;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
